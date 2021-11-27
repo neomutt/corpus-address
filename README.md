@@ -12,7 +12,7 @@ While running it will also generate more test cases.
 ## OSS-Fuzz
 
 - Continuous Fuzzing ([README](https://github.com/google/oss-fuzz/))
-- [Test case data](corpus_address)
+- [Test case data](corpus)
 - Test harness: [test-fuzz](https://github.com/neomutt/test-library)
 
 ## Private Area
@@ -28,5 +28,5 @@ The latest corpus can be downloaded using `gsutil`
 
 - [Download gsutil](https://cloud.google.com/storage/docs/gsutil_install)
 - Download test cases:
-  `gsutil -m rsync gs://neomutt-corpus.clusterfuzz-external.appspot.com/libFuzzer/neomutt_address-fuzz corpus_address/`
+  `gsutil -m rsync gs://neomutt-corpus.clusterfuzz-external.appspot.com/libFuzzer/neomutt_address-fuzz corpus/`
 
